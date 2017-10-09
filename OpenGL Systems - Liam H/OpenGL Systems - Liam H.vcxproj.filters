@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CUBE.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry Model.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CUBE.h">
+      <Filter>Header Files\Object headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry model.h">
+      <Filter>Header Files\Object headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\shaders\Main.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\shaders\Main.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\shaders\Model.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\shaders\Model.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\shaders\text.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\shaders\text.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4cfd9862-61cf-4593-bf65-14053ca701fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5c454a89-4a53-4a6f-9fbf-4950a7f6c589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{95273253-bf39-4ad8-b23e-9a1ef851957b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{5b27c43f-90c7-47e8-b533-2e5c7eeae5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object headers">
+      <UniqueIdentifier>{07a5576c-46f7-4285-85f1-2e4b39b59bfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
